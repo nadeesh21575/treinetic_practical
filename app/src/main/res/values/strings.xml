@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Treinetic Practical</string>
+    <string name="home_page_title">Enjoy the world \ninto virtual reality</string>
+    <string name="home_page_banner_title">Improved Controller\nDesign with\nVirtual Reality</string>
+    <string name="buy_now">Buy Now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_chat_fragment">Hello Chat fragment</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">$ 65.332</string>
+    <string name="_100_reviews">100 Reviews</string>
+    <string name="product_de">Product Description\nLine 2\nLine 3\nLine 4</string>
+    <string name="prdct_ic_btn_3">Improved Optics</string>
+    <string name="prd_ic_btn">Clear Brightness</string>
+    <string name="prd_btn_3">Wifi Controller</string>
+    <string name="checkout_btn">Checkout</string>
+    <string name="go_to_cart">"Go to cart "</string>
+    <string name="go_back">Go Back</string>
+    <string name="btn_con_de">button Three</string>
+    <string name="btn_two_con_des">Button Two</string>
+    <string name="btn_three_cn_des">Button Three</string>
+
+
 </resources>

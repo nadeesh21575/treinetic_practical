@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+<!--        <variable-->
+<!--            name="viewModel"-->
+<!--            type="com.thilina.treineticpractical.viewmodels.HomeViewModel" />-->
+
+<!--        <variable-->
+<!--            name="catAdaptor"-->
+<!--            type="com.thilina.treineticpractical.adaptors.CategoryAdaptor" />-->
+
+<!--        <variable-->
+<!--            name="productAdaptor"-->
+<!--            type="com.thilina.treineticpractical.adaptors.ProductAdaptor" />-->
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/container"
+        android:paddingTop="@dimen/size_30dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        tools:context=".BaseActivity">
+
+        <!-- Toolbar (if needed) -->
+
+        <FrameLayout
+            android:id="@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Bottom navigation bar -->
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_bg"
+            android:theme="@style/Theme.AppCompat.Light"
+            app:itemIconTint="@drawable/bottom_nav_item_color"
+            app:itemTextColor="@drawable/bottom_nav_item_color"
+            app:labelVisibilityMode="unlabeled"
+            app:itemIconSize="@dimen/size_30dp"
+            android:layout_gravity="bottom"
+            app:menu="@menu/bottom_nav_menu" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>
