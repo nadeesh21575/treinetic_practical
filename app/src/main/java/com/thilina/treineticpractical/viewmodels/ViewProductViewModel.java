@@ -17,6 +17,7 @@ import com.thilina.treineticpractical.MyApplication;
 import com.thilina.treineticpractical.interfaces.NetworkCallback;
 import com.thilina.treineticpractical.model.Product;
 
+
 import java.lang.reflect.Type;
 
 public class ViewProductViewModel extends BaseObservable {
